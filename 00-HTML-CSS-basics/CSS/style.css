@@ -1,0 +1,47 @@
+/* Definición global de la fuente para el elemento html */
+html {
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos para el header con clase .encabezado */
+.encabezado {
+    background-color: magenta;
+    text-align: center;
+    padding: 10px;
+    font-size: 46px; /* Tamaño de fuente específico para .encabezado */
+}
+
+/* Estilos para el nav con clase .navigation */
+.navigation {
+    background-color: blue;
+    padding: 10px;
+    font-size: 12px; /* Tamaño de fuente específico para .navigation */
+}
+
+/* Estilos para el aside con clase .sidebar */
+.sidebar {
+    background-color: magenta; /* Fondo magenta si termina con 'r' */
+    padding: 10px;
+    font-size: 10px; /* Tamaño de fuente específico para .sidebar */
+}
+
+/* Estilos para el footer con clase .footer */
+.footer {
+    background-color: magenta; /* Fondo magenta si termina con 'r' */
+    text-align: center;
+    padding: 10px;
+    font-size: 10px; /* Tamaño de fuente específico para .footer */
+}
+
+/* Estilos para el section con clase .content */
+.content {
+    padding: 10px;
+    font-size: 14px; /* Tamaño de fuente específico para .content */
+}
+
+
+.no-puedo-usar-inline-styles {
+    background: green !important; /* se usa el important para dar privilegio */
+}
+
