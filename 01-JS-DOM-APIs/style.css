@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+.oculto {
+    display: none;
+}
